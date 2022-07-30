@@ -362,9 +362,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Fot Desktop and Tablet */
+/* Fot Tablet */
 @media only screen and (min-width: 576px) and (max-width: 991px) {
   /* Navbar */
+  .navbar {
+    margin-top: 0;
+  }
+  
   .navbar .collapse.navbar-collapse .navbar-nav {
     width: 100%;
     top: 80px;
